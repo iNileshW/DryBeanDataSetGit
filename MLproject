@@ -1,0 +1,7 @@
+name: "Dry Bean Dat Set"
+conda_env: conda.yaml
+entry_points:
+    Training:
+        command: "python train.py"
+        command: "python app.py"
+    
