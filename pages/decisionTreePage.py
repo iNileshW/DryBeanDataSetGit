@@ -17,7 +17,7 @@ y_pred = clf.predict(X_val)
 X_val["Actual"]=y_val
 X_val["prediction"]=y_pred
 #Create Prediction File
-X_val.to_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetProject\prediction_dt.csv",index=False)
+X_val.to_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetGit\prediction_dt.csv",index=False)
 
 feature_importance = clf.feature_importances_
 feature_importance_df = pd.DataFrame({"Feature": X_train.columns, "Importance": feature_importance})

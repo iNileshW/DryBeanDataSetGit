@@ -6,7 +6,7 @@ from dash import Patch, clientside_callback
 #from dash_bootstrap_templates import load_figure_template
 import plotly.io as pio
 
-# df=pd.read_csv(r'C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetProject\data\Dry_Bean_Dataset_csv.csv')
+# df=pd.read_csv(r'CC:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetGit\data\Dry_Bean_Dataset_csv.csv')
 #BootstapCSS:
 # app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 #Cyborg CSS:

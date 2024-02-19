@@ -12,7 +12,7 @@ from analytics.categorical_to_numerical import CategoricalColumnEncoder
 
 #data splitter
 #remove y column
-df=pd.read_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetProject\data\Dry_Bean_Dataset_csv.csv")
+df=pd.read_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetGit\data\Dry_Bean_Dataset_csv.csv")
 
 #convert categorical to int
 encoder=CategoricalColumnEncoder(df)

@@ -8,9 +8,9 @@ from sklearn.metrics import confusion_matrix, classification_report
 from dash import dash_table
 
 dash.register_page(__name__,order=5)
-prediction_dt=pd.read_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetProject\prediction_dt.csv")
-prediction_rf=pd.read_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetProject\prediction_rf.csv")
-prediction_lgbm=pd.read_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetProject\prediction_lgbm.csv")
+prediction_dt=pd.read_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetGit\prediction_dt.csv")
+prediction_rf=pd.read_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetGit\prediction_rf.csv")
+prediction_lgbm=pd.read_csv(r"C:\Users\Monicca2502\Documents\Nilesh\AI\Pandas\Projects\DryBeanDataSetGit\prediction_lgbm.csv")
 
 # Define the app layout
 layout = html.Div([
